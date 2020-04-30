@@ -1,0 +1,73 @@
+
+
+// 款模型内填充的背景色
+.fill-bg { background-color: $fill-bg !important; }
+.fill-head-bg { background-color: $fill-head-bg }
+
+.body { padding: 12px 0 }
+.full-h { height: 100% }
+.full-w { width: 100% }
+
+/****** 间距线相关 *******/
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt12 { margin-top: 12px !important; }
+.mt14 { margin-top: 14px !important; }
+.mt20 { margin-top: 20px !important; }
+.mb12 { margin-bottom: 12px !important; }
+.mr12 { margin-right: 12px !important; }
+.px16 { padding-left: 16px !important; padding-right: 16px !important; }
+.py16 { padding-top: 16px !important; padding-bottom: 16px !important; }
+.py18 { padding-top: 18px !important; padding-bottom: 18px !important; }
+.pb70 { padding-bottom: 70px }
+
+/***** 文字相关 ******/
+.tc { text-align: center }
+.tr { text-align: right }
+.tl { text-align: left }
+.tj { text-align: justify }
+.tw { word-wrap: break-word }
+.fb { font-weight: bold }
+.f12 { font-size: 12px }
+.f14 { font-size: 14px }
+.f16 { font-size: 16px !important }
+.f20 { font-size: 20px }
+.f21 { font-size: 21px }
+.fc1 { color: $def-font-color }
+.fc2 { color: $font-color-2 }
+.fc3 { color: $font-color-3 !important; }
+.fc4 { color: $font-color-4 }
+.fc-btn { color: $btn-color }
+
+/****** 定位方式 *******/
+.pr { position: relative }
+.pa { position: absolute }
+
+/***** flex 布局 *****/
+.flex { display: flex }
+.flex-1 { flex: 1 }
+.flex-column { flex-direction: column }
+.flex-wrap { flex-wrap: wrap }
+.align-start { align-items: flex-start }
+.align-end { align-items: flex-end }
+.align-center { align-items: center }
+.self-start { align-self: flex-start }
+.self-end { align-self: flex-end }
+.justify-start { justify-content: flex-start }
+.justify-end { justify-content: flex-end }
+.justify-center { justify-content: center }
+.justify-between { justify-content: space-between }
+.justify-around { justify-content: space-around }
+.f-tc { display: flex; justify-content: center; align-items: center }
+.f-sb { display: flex; justify-content: space-between; align-items: center }
+
+.border-top {border-top: .5px solid $border-color;}
+
+.footer-box {
+    padding: 12px 16px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
